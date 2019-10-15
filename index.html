@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sticky</title>
+    <link rel="stylesheet" href="note.css">
+</head>
+<h1>Sticky Note</h1>
+<button type="button" id="btn1" onclick="addNote()">Create</button>
+<body>
+<div>
+      <table border="1px" id="myTable">
+        <tr>
+            <td>
+                <textarea placeholder="Tittle..." id="inputTitle" cols="25" rows="2"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <textarea placeholder="Content..." id="inputContent" cols="25" rows="7"></textarea>
+            </td>
+        </tr>
+    </table>
+</div>
+<div id="board"></div>
+</body>
+<script src="note.js"></script>
+</html>

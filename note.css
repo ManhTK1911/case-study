@@ -1,0 +1,49 @@
+body {
+    background: darkkhaki;
+}
+
+h1 {
+    background: #d67406;
+    text-align: center;
+}
+
+#btn1 {
+    width: 60px;
+    height: 30px;
+    background: #2821f6;
+    text-align: center;
+}
+
+#btn2 {
+    width: 30px;
+    height: 20px;
+    background: #f61200;
+    text-align: center;
+}
+
+#btn3 {
+    width: 30px;
+    height: 20px;
+    background: #f60884;
+    text-align: center;
+}
+
+textarea {
+    background: chartreuse;
+}
+
+#inputTitle {
+    background: aqua;
+}
+
+#inputContent {
+    background: aqua;
+}
+
+#inputTitle${this.id} {
+    background: aqua;
+}
+
+table {
+    background: chocolate;
+}
